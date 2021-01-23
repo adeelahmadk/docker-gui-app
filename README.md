@@ -48,7 +48,7 @@ There are also `docker-compose.yml` provided for each sub-repository that are au
 
 ## Docker Hub
 
-If you just want to test the image without dirtying your hands, pull the Firefox image hosted at the docker hub and give it a spin.
+If you just want to test the image without dirtying your hands, pull the [Firefox image](https://hub.docker.com/r/codegenki/firefox-box) hosted at the docker hub and give it a spin.
 
 ## References
 

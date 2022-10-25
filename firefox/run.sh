@@ -2,5 +2,5 @@
 
 xhost + local:root && \
   docker run --rm -it --name firefox \
-  -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix:ro firefox-box && \
+  -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix:ro codegenki/firefox-box && \
   xhost - local:root

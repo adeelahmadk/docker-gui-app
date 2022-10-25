@@ -19,7 +19,7 @@ For a Firefox image
 docker build -t firefox-box:0.1 ./firefox
 ```
 
-In order to allow requests from non-network local connections to the host's X server
+The `xhost` program is used to add and delete host names or user names to the list allowed to make connections to the X server. Therefore, in order to allow requests from non-network local connections to the host's X server
 
 ```sh
 xhost + local:root
@@ -48,7 +48,7 @@ There are also `docker-compose.yml` provided for each sub-repository that are au
 
 ## Docker Hub
 
-If you just want to test the image without dirtying your hands, pull the [Firefox image](https://hub.docker.com/r/codegenki/firefox-box) hosted at the docker hub and give it a spin.
+If you just want to test the image without dirtying your hands, pull the [Firefox image](https://hub.docker.com/r/adeelahmadk/firefox-sandbox) hosted at the docker hub and give it a spin.
 
 ## References
 
